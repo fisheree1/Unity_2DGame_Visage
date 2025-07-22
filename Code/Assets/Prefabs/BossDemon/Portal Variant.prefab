@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5727432062273952578
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 212672547598631439, guid: a25d255ac94d8e841a7500aa974ceb4e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 212672547598631439, guid: a25d255ac94d8e841a7500aa974ceb4e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -152.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212672547598631439, guid: a25d255ac94d8e841a7500aa974ceb4e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212672547598631439, guid: a25d255ac94d8e841a7500aa974ceb4e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212672547598631439, guid: a25d255ac94d8e841a7500aa974ceb4e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212672547598631439, guid: a25d255ac94d8e841a7500aa974ceb4e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212672547598631439, guid: a25d255ac94d8e841a7500aa974ceb4e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212672547598631439, guid: a25d255ac94d8e841a7500aa974ceb4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212672547598631439, guid: a25d255ac94d8e841a7500aa974ceb4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212672547598631439, guid: a25d255ac94d8e841a7500aa974ceb4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686117841610179826, guid: a25d255ac94d8e841a7500aa974ceb4e, type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686117841610179826, guid: a25d255ac94d8e841a7500aa974ceb4e, type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3686117841610179826, guid: a25d255ac94d8e841a7500aa974ceb4e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -870244345, guid: e46710e92a82d1f40b770a7d7f8d44d5, type: 3}
+    - target: {fileID: 3686117841610179826, guid: a25d255ac94d8e841a7500aa974ceb4e, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401538139503465695, guid: a25d255ac94d8e841a7500aa974ceb4e, type: 3}
+      propertyPath: m_Name
+      value: Portal Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401538139503465695, guid: a25d255ac94d8e841a7500aa974ceb4e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 192085401980980244, guid: a25d255ac94d8e841a7500aa974ceb4e, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4401538139503465695, guid: a25d255ac94d8e841a7500aa974ceb4e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6832515427237347250}
+  m_SourcePrefab: {fileID: 100100000, guid: a25d255ac94d8e841a7500aa974ceb4e, type: 3}
+--- !u!1 &8245680265649033117 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4401538139503465695, guid: a25d255ac94d8e841a7500aa974ceb4e, type: 3}
+  m_PrefabInstance: {fileID: 5727432062273952578}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6832515427237347250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8245680265649033117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23cb548f97c48374099866b7940f8865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetSceneName: Story2-2-1
+  interactKey: 101
+  interactionUI: {fileID: 0}
+  interactionText: {fileID: 0}
+  promptText: Press E to Enter Portal
+  hasVisualEffects: 1
+  glowIntensity: 0.5
+  portalColor: {r: 0, g: 1, b: 1, a: 1}
+  portalSound: {fileID: 0}

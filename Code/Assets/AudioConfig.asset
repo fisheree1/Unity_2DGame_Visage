@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b781afcd3449d54e8c17ff5652ee2cc, type: 3}
+  m_Name: AudioConfig
+  m_EditorClassIdentifier: 
+  normalBackgroundMusic: {fileID: 8300000, guid: e6c70de76d2dbe241b6dd92f0fde08e2, type: 3}
+  combatBackgroundMusic: {fileID: 8300000, guid: 517636fe9a4a6c94383429a7542496c9, type: 3}
+  bossBackgroundMusic: {fileID: 8300000, guid: ca1489611633d1540a59b4ef290208e0, type: 3}
+  masterVolume: 1
+  musicVolume: 0.7
+  sfxVolume: 0.8
+  fadeTime: 2
+  smoothTransition: 1
+  combatDetectionRange: 15
+  combatExitDelay: 3
+  bossLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  enemyLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  bossTag: Boss
+  enemyTags:
+  - SmallBoss
+  uiSounds: []
+  environmentSounds:
+  - {fileID: 8300000, guid: e6c70de76d2dbe241b6dd92f0fde08e2, type: 3}
+  combatSounds:
+  - {fileID: 8300000, guid: ca1489611633d1540a59b4ef290208e0, type: 3}
+  - {fileID: 8300000, guid: 517636fe9a4a6c94383429a7542496c9, type: 3}
+  enableDebugLogs: 1
+  showGizmos: 1
